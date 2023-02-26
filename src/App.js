@@ -10,11 +10,11 @@ function App() {
 
   return (
     <React.Fragment>
-        <MainHeader />
-        <main>
-          {!ctx.isLoggedIn && <Login />}
-          {ctx.isLoggedIn && <Home />}
-        </main>
+      <MainHeader />
+      <main>
+        {!ctx.isLoggedIn && <Login />}
+        {ctx.isLoggedIn && <Home />}
+      </main>
     </React.Fragment>
   );
 }
